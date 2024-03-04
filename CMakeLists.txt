@@ -6,4 +6,5 @@ set(CMAKE_C_STANDARD 90)
 
 add_executable(embedded_systems
         hardware/stepper_motor.c
-        hardware/LPC17xx.h)
+        hardware/LPC17xx.h
+        hardware/seven_segment_display.c)
