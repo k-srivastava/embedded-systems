@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.28)
+project(embedded_systems C)
+
+set(CMAKE_CXX_COMPILER "/usr/bin/clang-17")
+set(CMAKE_C_STANDARD 90)
+
+add_executable(embedded_systems main.c
+        hardware/stepper_motor.c
+        hardware/LPC17xx.h)
