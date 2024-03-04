@@ -1,8 +1,5 @@
 #include "LPC17xx.h"
 
-unsigned long LED = 0x10;
-unsigned int i, j;
-
 int main(void)
 {
     LPC_PINCON->PINSEL1 = 0x00000000;
