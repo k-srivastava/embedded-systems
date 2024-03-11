@@ -2,7 +2,7 @@
 
 void clockwise(void)
 {
-    unsigned int rotate_var = 0x1;
+    unsigned long rotate_var = 0x1;
 
     unsigned int i = 0;
     for (i = 0; i <= 3; i++)
@@ -19,7 +19,7 @@ void clockwise(void)
 
 void anti_clockwise(void)
 {
-    unsigned int rotate_var = 0x8;
+    unsigned long rotate_var = 0x8;
 
     unsigned int i = 0;
     for (i = 0; i <= 3; i++)
