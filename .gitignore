@@ -1,2 +1,3 @@
 /cmake-build-debug
 /hardware/LPC17xx.h
+/hardware/lcd.h
