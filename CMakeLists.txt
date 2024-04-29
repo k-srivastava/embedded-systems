@@ -13,4 +13,5 @@ add_executable(embedded_systems
         hardware/key_pad.c
         hardware/lcd.h
         hardware/external_interrupt.c
+        hardware/analog_to_digital_convertor.c
 )
